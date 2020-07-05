@@ -1,0 +1,67 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.content {
+  width: 100%;
+}
+
+form {
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+}
+
+input {
+  text-align: center;
+}
+
+.title-box {
+  width: 480px;
+}
+
+.submit-box {
+  display: block;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+ul {
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+li {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  margin: 30px;
+  background-color: silver;
+}
+
+li:hover {
+  background-color: #8fb9ca;
+  cursor: pointer;
+}
